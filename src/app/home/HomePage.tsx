@@ -8,14 +8,15 @@ import { CustomCursor } from '../components/CustomCursor';
 const personas = [
   { name: 'ryocanthack', path: '/hack', color: '#D00000', desc: 'Security & Networking' },
   { name: 'ryocantspeak', path: '/speak', color: '#FFD700', desc: 'Language & Communication' },
-  { name: 'ryohatesmath', path: '/math', color: '#E65100', desc: 'Data & AI/ML' },
-  { name: 'ryodoesmusic', path: '/music', color: '#808080', desc: 'Music & Sound' },
+  { name: 'ryocantmath', path: '/math', color: '#E65100', desc: 'Data & AI/ML' },
+  { name: 'ryocanthear', path: '/hear', color: '#808080', desc: 'Music & Sound' },
   { name: 'ryocantfilm', path: '/film', color: '#003366', desc: 'Film & Photography' },
-  { name: 'ryolovesbook', path: '/book', color: '#1B4332', desc: 'Books & Literature' },
-  { name: 'ryomify', path: '/game', color: '#6200EE', desc: 'Gaming & Geek Culture' },
+  { name: 'ryocantread', path: '/read', color: '#1B4332', desc: 'Books & Literature' },
+  { name: 'ryocantplay', path: '/play', color: '#6200EE', desc: 'Gaming & Geek Culture' },
+  { name: 'ryocantdesign', path: '/design', color: '#8B6F47', desc: 'Graphic & Motion Design' },
 ];
 
-export default function HomePage() {
+export function HomePage() {
   const [showEye, setShowEye] = useState(true);
 
   useEffect(() => {

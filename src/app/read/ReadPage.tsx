@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-
 import { BookOpen, Library, Bookmark, ArrowLeft } from 'lucide-react';
 
-export default function BookPage() {
+export function ReadPage() {
   const readings = [
     {
       title: 'The Daemon Trilogy',
@@ -44,7 +43,7 @@ export default function BookPage() {
         >
           <div className="flex items-center gap-6 mb-8">
             <BookOpen size={52} />
-            <h1 className="text-7xl">ryolovesbook</h1>
+            <h1 className="text-7xl">ryocantread</h1>
           </div>
           <p className="text-2xl leading-relaxed text-justify">
             <span className="float-left text-8xl leading-none mr-4 mt-2">T</span>

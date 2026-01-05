@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-
 import { Gamepad2, Trophy, Zap, ArrowLeft } from 'lucide-react';
 
-export default function GamePage() {
+export function PlayPage() {
   const achievements = [
     {
       title: 'Speedrun Records',
@@ -61,7 +60,7 @@ export default function GamePage() {
         >
           <div className="flex items-center gap-4 mb-6">
             <Gamepad2 size={56} />
-            <h1 className="text-7xl tracking-wide">RYOMIFY</h1>
+            <h1 className="text-7xl tracking-wide">RYOCANTPLAY</h1>
           </div>
           <p className="text-3xl px-6 py-3 rounded-full bg-current/10 inline-block">
             LEVEL 99 • SYNTHETIC PLAYGROUND

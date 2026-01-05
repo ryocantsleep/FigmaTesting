@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-
 import { Music, Radio, Disc, ArrowLeft } from 'lucide-react';
 
-export default function MusicPage() {
+export function HearPage() {
   const works = [
     {
       title: 'Concrete Dreams',
@@ -53,7 +52,7 @@ export default function MusicPage() {
         >
           <div className="flex items-center gap-4 mb-4">
             <Music size={48} />
-            <h1 className="text-6xl">ryodoesmusic</h1>
+            <h1 className="text-6xl">ryocanthear</h1>
           </div>
           <p className="text-2xl opacity-70">The Brutalist Studio</p>
         </motion.div>

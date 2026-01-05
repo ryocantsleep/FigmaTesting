@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-
 import { Binary, Database, Brain, ArrowLeft } from 'lucide-react';
 
-export default function MathPage() {
+export function MathPage() {
   const projects = [
     {
       title: 'Predictive Analytics Engine',
@@ -43,7 +42,7 @@ export default function MathPage() {
         >
           <div className="flex items-center gap-4 mb-4">
             <Binary size={40} />
-            <h1 className="text-5xl font-mono">ryohatesmath</h1>
+            <h1 className="text-5xl font-mono">ryocantmath</h1>
           </div>
           <p className="text-xl opacity-70 font-mono">[DATA_SCIENTIST | ML_ENGINEER | ANALYST]</p>
         </motion.div>

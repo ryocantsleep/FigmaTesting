@@ -1,6 +1,6 @@
 'use client';
 
-import  MathPage  from './MathPage';
+import { MathPage } from './MathPage';
 
 export default function Page() {
   return <MathPage />;
